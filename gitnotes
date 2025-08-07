@@ -84,6 +84,46 @@ muestra los detalles de la etiqueta
 git tag -d v1.0
 elimina la etiqueta alv
 
+### GITHUB
+
+**Configuración de SSH**
+
+¿Por qué es mejor usar SSH en lugar de HTTPS para GitHub?
+Seguridad adicional: SSH permite autenticar la computadora específica que accede a los repositorios sin necesidad de ingresar una contraseña cada vez
+
+**Generación de llave:**
+
+sh-keygen -t ed25519 -C "tu_correo@example.com"
+
+-t ed25519 establece el nivel de encriptación.
+-C añade un comentario con tu correo, útil para identificar la llave en GitHub.
+
+Puedes utilizar el nombre por defecto. 
+
+Se creará un directorio llamado ".ssh" con el archivo id_ed25519.pub el cual tiene la perra lleva
+
+**Activar el agente y añadir llave privada**
+
+
+eval "$(ssh-agent -s)"
+ssh-add ~.ssh/id_ed25519
+
+
+Te vas a github y agregas la llave. (Copia todo lo que encuentres en el .pub
+
+**Verificar la coneexón con github**
+
+ssh -T git@github.com
+
+escribe yes
+
+y pos clonar repos ya sabes papi apoko no? :v
+
+
+**Subir y jalar información**
+
+pull es para jalar
+push es para empujar :v
 
 
 
