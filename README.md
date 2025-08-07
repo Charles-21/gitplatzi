@@ -1,4 +1,4 @@
-# Subir info
+# Subir cambios
 
 git status
 git add .
@@ -7,3 +7,8 @@ git commit
 
 git push -u origin main
 
+# Bajar cambios
+
+git pull
+
+y se baja todo alv
