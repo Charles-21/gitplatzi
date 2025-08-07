@@ -15,3 +15,7 @@ git push -u origin main
 git pull
 
 y se baja todo alv
+
+
+
+Aún hay problemas. GitHub es complicado :c
