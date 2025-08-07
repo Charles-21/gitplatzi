@@ -122,8 +122,20 @@ y pos clonar repos ya sabes papi apoko no? :v
 
 **Subir y jalar información**
 
-pull es para jalar
-push es para empujar :v
+
+git pull
+es para jalar los cambios de la rama main en gthub. Permite actualizar el repositorio local con los cambios de la nube
+
+git push origin main
+push es para empujar :v. Permite subir cambios del repositorio local a la nube.
+
+MUY IMPORTANTE:
+No se puede hace run git push si el repositorio de github no está sincronizado con el repositorio local. 
+
+Hay que hacer primero un git pull! Por eso a veces no te jala wey
+
+
+
 
 
 
